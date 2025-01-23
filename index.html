@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Calculator Pro Max</h2>
+    <div>
+        <label for="num1">Number1 = </label>
+        <input type="number" name="num1" id="num1" placeholder="Enter a Number1">
+    </div>
+    <br>
+    <div>
+        <label for="num2">Number2 = </label>
+        <input type="number" name="num2" id="num2" placeholder="Enter a Number2">
+    </div>
+    <br>
+    <button onclick="addition()">Addition (+)</button>
+    <button onclick="subtraction()">Subtraction (-)</button>
+    <button onclick="multiplication()">Multiplication (*)</button>
+    <button onclick="division()">Division (/)</button>
+    <button onclick="percentage()">Percentage (%)</button>
+    <br><br>
+    <div>
+        <label for="answer">Answer = </label>
+        <input type="text" name="answer" id="answer" readonly>
+    </div>
+    <br>
+    <div>
+        <button onclick="clear()">Clear</button>
+    </div>
+    
+    <script src="script.js"></script>   
+</body>
+</html>
